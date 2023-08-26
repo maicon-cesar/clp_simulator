@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projeto_windows" />
+		<Option platforms="Windows;" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="exe/debug/Application" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="lib\SFML-2.1\lib\libsfml-system-d.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-window-d.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-graphics-d.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-main-d.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-audio-d.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-network-d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="exe/release/jogo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="lib\SFML-2.1\lib\libsfml-system.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-window.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-graphics.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-main.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-audio.a" />
+					<Add library="lib\SFML-2.1\lib\libsfml-network.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-ansi" />
+			<Add directory="inc" />
+			<Add directory="lib/SFML-2.1/include" />
+		</Compiler>
+		<Unit filename="inc/Application.hpp" />
+		<Unit filename="inc/BaseInfo.hpp" />
+		<Unit filename="inc/BaseMenu.hpp" />
+		<Unit filename="inc/CLP_Simulator.hpp" />
+		<Unit filename="inc/Code.hpp" />
+		<Unit filename="inc/Command.hpp" />
+		<Unit filename="inc/Compiler.hpp" />
+		<Unit filename="inc/ConfigButton.hpp" />
+		<Unit filename="inc/Fila.hpp" />
+		<Unit filename="inc/IniParser.hpp" />
+		<Unit filename="inc/Input.hpp" />
+		<Unit filename="inc/List.hpp" />
+		<Unit filename="inc/Math.hpp" />
+		<Unit filename="inc/MenuButton.hpp" />
+		<Unit filename="inc/Nodo.hpp" />
+		<Unit filename="inc/Pilha.hpp" />
+		<Unit filename="inc/Programa.hpp" />
+		<Unit filename="inc/Resources.hpp" />
+		<Unit filename="inc/SoundSystem.hpp" />
+		<Unit filename="inc/StringUtils.hpp" />
+		<Unit filename="inc/Tela.hpp" />
+		<Unit filename="inc/Tela_Creditos.hpp" />
+		<Unit filename="inc/Tela_Principal.hpp" />
+		<Unit filename="inc/Telas.hpp" />
+		<Unit filename="inc/gui/BitmapFont.hpp" />
+		<Unit filename="inc/gui/BitmapString.hpp" />
+		<Unit filename="inc/gui/Button.hpp" />
+		<Unit filename="inc/gui/CheckBox.hpp" />
+		<Unit filename="inc/gui/Image.hpp" />
+		<Unit filename="inc/gui/Label.hpp" />
+		<Unit filename="inc/gui/Menu.hpp" />
+		<Unit filename="inc/gui/OptionList.hpp" />
+		<Unit filename="inc/gui/ProgressBar.hpp" />
+		<Unit filename="inc/gui/Slider.hpp" />
+		<Unit filename="inc/gui/TextBox.hpp" />
+		<Unit filename="inc/gui/Widget.hpp" />
+		<Unit filename="inc/gui/WidgetStyle.hpp" />
+		<Unit filename="inc/gui/gui.hpp" />
+		<Unit filename="inc/sfml_helper.hpp" />
+		<Unit filename="src/Application.cpp" />
+		<Unit filename="src/BaseMenu.cpp" />
+		<Unit filename="src/BitmapFont.cpp" />
+		<Unit filename="src/BitmapString.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/CLP_Simulator.cpp" />
+		<Unit filename="src/CheckBox.cpp" />
+		<Unit filename="src/Code.cpp" />
+		<Unit filename="src/Commands.cpp" />
+		<Unit filename="src/Compiler.cpp" />
+		<Unit filename="src/ConfigButton.cpp" />
+		<Unit filename="src/Fila.cpp" />
+		<Unit filename="src/FormLayout.cpp" />
+		<Unit filename="src/HBoxLayout.cpp" />
+		<Unit filename="src/Image.cpp" />
+		<Unit filename="src/IniParser.cpp" />
+		<Unit filename="src/Input.cpp" />
+		<Unit filename="src/Label.cpp" />
+		<Unit filename="src/Layout.cpp" />
+		<Unit filename="src/List.cpp" />
+		<Unit filename="src/Math.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/MenuButton.cpp" />
+		<Unit filename="src/OptionList.cpp" />
+		<Unit filename="src/Pilha.cpp" />
+		<Unit filename="src/Programa.cpp" />
+		<Unit filename="src/ProgressBar.cpp" />
+		<Unit filename="src/Resources.cpp" />
+		<Unit filename="src/Slider.cpp" />
+		<Unit filename="src/SoundSystem.cpp" />
+		<Unit filename="src/StringUtils.cpp" />
+		<Unit filename="src/Tela_Creditos.cpp" />
+		<Unit filename="src/Tela_Principal.cpp" />
+		<Unit filename="src/TextBox.cpp" />
+		<Unit filename="src/VBoxLayout.cpp" />
+		<Unit filename="src/Widget.cpp" />
+		<Unit filename="src/WidgetStyle.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

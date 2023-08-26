@@ -1,0 +1,1495 @@
+# depslib dependency file v1.0
+1386123407 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\application.cpp
+	"Telas.hpp"
+	<iostream>
+	"BaseInfo.hpp"
+
+1385924737 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\telas.hpp
+	"Tela_Principal.hpp"
+	"Tela_Creditos.hpp"
+
+1386124132 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\tela_principal.hpp
+	"BaseMenu.hpp"
+
+1381791644 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\basemenu.hpp
+	<vector>
+	<string>
+	<SFML/Graphics.hpp>
+	"Tela.hpp"
+	"MenuButton.hpp"
+	"ConfigButton.hpp"
+	"gui/gui.hpp"
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\config.hpp
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\utf.inl
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\string.inl
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\thread.inl
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\vector2.inl
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\system\vector3.inl
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\contextsettings.hpp
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\window\windowstyle.hpp
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\blendmode.hpp
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\rect.inl
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\primitivetype.hpp
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1381809383 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\tela.hpp
+	<SFML/Graphics.hpp>
+	"Resources.hpp"
+
+1381975859 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\resources.hpp
+	<string>
+	<map>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1381975835 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\menubutton.hpp
+	"gui/Button.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\button.hpp
+	"Widget.hpp"
+
+1381604713 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\widget.hpp
+	<SFML/Graphics.hpp>
+	"sfml_helper.hpp"
+
+1381975981 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\sfml_helper.hpp
+
+1381975444 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\configbutton.hpp
+	"gui/Button.hpp"
+
+1381790110 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\gui.hpp
+	"Menu.hpp"
+	"Button.hpp"
+	"CheckBox.hpp"
+	"Label.hpp"
+	"Image.hpp"
+	"OptionList.hpp"
+	"ProgressBar.hpp"
+	"Slider.hpp"
+	"TextBox.hpp"
+	"layouts/VBoxLayout.hpp"
+	"layouts/HBoxLayout.hpp"
+	"layouts/FormLayout.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\menu.hpp
+	<vector>
+	<SFML/Graphics.hpp>
+	"Widget.hpp"
+	"WidgetStyle.hpp"
+	"BitmapFont.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\widgetstyle.hpp
+	<SFML/Graphics.hpp>
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\bitmapfont.hpp
+	<SFML/Graphics.hpp>
+
+1381840360 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\checkbox.hpp
+	"Widget.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\label.hpp
+	"Widget.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\image.hpp
+	"Widget.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\optionlist.hpp
+	<vector>
+	<string>
+	"Widget.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\progressbar.hpp
+	"Widget.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\slider.hpp
+	"Widget.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\textbox.hpp
+	"Widget.hpp"
+	"BitmapString.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\bitmapstring.hpp
+	<string>
+	<vector>
+	<SFML/Graphics.hpp>
+	"BitmapFont.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\layouts\vboxlayout.hpp
+	"Layout.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\layouts\layout.hpp
+	<SFML/System/Vector2.hpp>
+
+1381789562 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\layouts\hboxlayout.hpp
+	"Layout.hpp"
+
+1380977692 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\gui\layouts\formlayout.hpp
+	<vector>
+	"Layout.hpp"
+	"../Label.hpp"
+
+1381634917 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\tela_creditos.hpp
+	"BaseMenu.hpp"
+
+1381696224 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\baseinfo.hpp
+	<SFML/Graphics.hpp>
+
+1385976439 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\basemenu.cpp
+	<cassert>
+	"BaseMenu.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+
+1386123325 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\application.hpp
+	<iostream>
+	<vector>
+	<SFML/Graphics/RenderWindow.hpp>
+	"Input.hpp"
+	"Tela.hpp"
+
+1381975643 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\input.hpp
+	<SFML/Window.hpp>
+
+1381974313 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\bitmapfont.cpp
+	<cstdio>
+	"gui/BitmapFont.hpp"
+
+1381609972 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\bitmapstring.cpp
+	"gui/BitmapString.hpp"
+
+1381974366 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\button.cpp
+	"gui/Button.hpp"
+	"gui/Menu.hpp"
+
+1381974376 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\checkbox.cpp
+	"gui/CheckBox.hpp"
+	"gui/Menu.hpp"
+
+1386131883 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\clp_simulator.cpp
+	"Application.hpp"
+	"Code.hpp"
+	"Command.hpp"
+
+1386170416 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\code.hpp
+	<iostream>
+	<string>
+	"Fila.hpp"
+	"Command.hpp"
+
+1380426060 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\fila.hpp
+	"Nodo.hpp"
+
+1386169093 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\nodo.hpp
+
+1386131169 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\command.hpp
+	<iostream>
+	<map>
+
+1386169584 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\code.cpp
+	"Code.hpp"
+
+1386131137 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\commands.cpp
+	"Command.hpp"
+
+1386131456 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\compiler.cpp
+	<string>
+	"Compiler.hpp"
+	"Application.hpp"
+	"Code.hpp"
+
+1386125617 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\compiler.hpp
+	<fstream>
+	<string>
+
+1385940252 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\configbutton.cpp
+	"ConfigButton.hpp"
+	"Resources.hpp"
+
+1381371984 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\fila.cpp
+	"Fila.hpp"
+
+1381974445 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\formlayout.cpp
+	"gui/layouts/FormLayout.hpp"
+
+1385943149 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\hboxlayout.cpp
+	"gui/layouts/HBoxLayout.hpp"
+	"gui/Widget.hpp"
+
+1381609457 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\image.cpp
+	"gui/Image.hpp"
+	"gui/Menu.hpp"
+
+1381974515 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\iniparser.cpp
+	<iostream>
+	<fstream>
+	"IniParser.hpp"
+
+1381975568 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\iniparser.hpp
+	<string>
+	<map>
+	<sstream>
+
+1385925158 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\input.cpp
+	<cstdio>
+	<SFML/Graphics.hpp>
+	"Input.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+	"StringUtils.hpp"
+	"IniParser.hpp"
+
+1381976034 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\stringutils.hpp
+	<cstdarg>
+	<string>
+	<sstream>
+	<iomanip>
+
+1381609495 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\label.cpp
+	"gui/Label.hpp"
+	"gui/Menu.hpp"
+
+1381609547 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\layout.cpp
+	"gui/layouts/Layout.hpp"
+
+1386095099 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\main.cpp
+	"Application.hpp"
+	"CLP_Simulator.hpp"
+	"Compiler.hpp"
+
+1386119410 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\clp_simulator.hpp
+	<SFML/System/Clock.hpp>
+
+1381974735 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\math.cpp
+	<ctime>
+	"Math.hpp"
+
+1381975690 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\math.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+	<cmath>
+	<cstdlib>
+
+1381974919 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\menu.cpp
+	"gui/Menu.hpp"
+	<cstdio>
+
+1381790867 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\menubutton.cpp
+	"MenuButton.hpp"
+	"Resources.hpp"
+	"SoundSystem.hpp"
+
+1381643236 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\soundsystem.hpp
+	<string>
+	<SFML/Audio.hpp>
+	"SoundSystem.hpp"
+	"IniParser.hpp"
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1380201968 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\lib\sfml-2.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+
+1381974984 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\optionlist.cpp
+	<cassert>
+	"gui/OptionList.hpp"
+	"gui/Menu.hpp"
+
+1380426622 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\pilha.cpp
+	"Pilha.hpp"
+
+1380426596 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\pilha.hpp
+	"Nodo.hpp"
+
+1381681709 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\progressbar.cpp
+	"gui/ProgressBar.hpp"
+	"gui/Menu.hpp"
+
+1381619767 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\resources.cpp
+	"Resources.hpp"
+
+1381975054 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\slider.cpp
+	"gui/Slider.hpp"
+	"gui/Menu.hpp"
+
+1381975117 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\soundsystem.cpp
+	<iostream>
+	"SoundSystem.hpp"
+	"Resources.hpp"
+
+1380977692 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\stringutils.cpp
+	<sstream>
+	<cstdio>
+	<cassert>
+	"StringUtils.hpp"
+
+1386016436 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\tela_creditos.cpp
+	"Tela_Creditos.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+	"StringUtils.hpp"
+
+1386124255 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\tela_principal.cpp
+	"Tela_Principal.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+
+1381975374 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\textbox.cpp
+	<cassert>
+	"gui/TextBox.hpp"
+	"gui/Menu.hpp"
+	<iostream>
+
+1381975385 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\vboxlayout.cpp
+	"gui/layouts/VBoxLayout.hpp"
+	"gui/Widget.hpp"
+
+1385936812 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\widget.cpp
+	"gui/Widget.hpp"
+	"gui/Menu.hpp"
+
+1381802352 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\widgetstyle.cpp
+	"gui/WidgetStyle.hpp"
+
+1386169329 source:c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\src\list.cpp
+	"List.hpp"
+
+1386169299 c:\users\maicon.oliveira\documents\maicon\workspaces\projetogb\inc\list.hpp
+	<iostream>
+	<fstream>
+	"Nodo.hpp"
+
+1386194722 source:d:\workspace\projetogb\src\bitmapfont.cpp
+	<cstdio>
+	"gui/BitmapFont.hpp"
+
+1386194766 d:\workspace\projetogb\inc\gui\bitmapfont.hpp
+	<SFML/Graphics.hpp>
+
+1386194856 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1386194832 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1386194832 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1386194833 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\config.hpp
+
+1386194909 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1386194915 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1386194892 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1386194877 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1386194969 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1386194892 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1386194969 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1386194909 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1386194909 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1386194914 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1386194877 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1386194878 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\utf.inl
+
+1386194919 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\string.inl
+
+1386194920 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1386194915 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\thread.inl
+
+1386194969 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1386194976 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1386194976 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1386194936 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1386194935 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\vector2.inl
+
+1386194937 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1386194936 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\system\vector3.inl
+
+1386194936 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1386194915 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1386194962 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1386194979 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\contextsettings.hpp
+
+1386194907 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1386194939 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1386194945 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1386194907 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1386194951 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1386194920 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1386194971 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1386194970 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\window\windowstyle.hpp
+
+1386194970 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\blendmode.hpp
+
+1386194935 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1386194943 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1386194920 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1386194934 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1386194915 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1386194914 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\rect.inl
+
+1386194953 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1386194934 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1386194977 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1386194969 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1386194979 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1386194977 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1386194915 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1386194978 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\primitivetype.hpp
+
+1386194944 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1386194976 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1386194940 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1386194935 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1386194962 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1386194979 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1386194975 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1386194975 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1386194989 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1386194976 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1386194944 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1386194920 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1386194743 source:d:\workspace\projetogb\src\bitmapstring.cpp
+	"gui/BitmapString.hpp"
+
+1386194772 d:\workspace\projetogb\inc\gui\bitmapstring.hpp
+	<string>
+	<vector>
+	<SFML/Graphics.hpp>
+	"BitmapFont.hpp"
+
+1386194665 source:d:\workspace\projetogb\src\button.cpp
+	"gui/Button.hpp"
+	"gui/Menu.hpp"
+
+1386194720 d:\workspace\projetogb\inc\gui\button.hpp
+	"Widget.hpp"
+
+1386194720 d:\workspace\projetogb\inc\gui\widget.hpp
+	<SFML/Graphics.hpp>
+	"sfml_helper.hpp"
+
+1386194723 d:\workspace\projetogb\inc\sfml_helper.hpp
+
+1386194693 d:\workspace\projetogb\inc\gui\menu.hpp
+	<vector>
+	<SFML/Graphics.hpp>
+	"Widget.hpp"
+	"WidgetStyle.hpp"
+	"BitmapFont.hpp"
+
+1386194771 d:\workspace\projetogb\inc\gui\widgetstyle.hpp
+	<SFML/Graphics.hpp>
+
+1386194695 source:d:\workspace\projetogb\src\checkbox.cpp
+	"gui/CheckBox.hpp"
+	"gui/Menu.hpp"
+
+1386194727 d:\workspace\projetogb\inc\gui\checkbox.hpp
+	"Widget.hpp"
+
+1386194743 source:d:\workspace\projetogb\src\configbutton.cpp
+	"ConfigButton.hpp"
+	"Resources.hpp"
+
+1386194728 d:\workspace\projetogb\inc\configbutton.hpp
+	"gui/Button.hpp"
+
+1386194696 d:\workspace\projetogb\inc\resources.hpp
+	<string>
+	<map>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+
+1386194962 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1386194907 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1386194662 source:d:\workspace\projetogb\src\fila.cpp
+	"Fila.hpp"
+
+1386194641 d:\workspace\projetogb\inc\fila.hpp
+	"Nodo.hpp"
+
+1386194640 d:\workspace\projetogb\inc\nodo.hpp
+
+1386194722 source:d:\workspace\projetogb\src\formlayout.cpp
+	"gui/layouts/FormLayout.hpp"
+
+1386194826 d:\workspace\projetogb\inc\gui\layouts\formlayout.hpp
+	<vector>
+	"Layout.hpp"
+	"../Label.hpp"
+
+1386194799 d:\workspace\projetogb\inc\gui\layouts\layout.hpp
+	<SFML/System/Vector2.hpp>
+
+1386194697 d:\workspace\projetogb\inc\gui\label.hpp
+	"Widget.hpp"
+
+1386194723 source:d:\workspace\projetogb\src\hboxlayout.cpp
+	"gui/layouts/HBoxLayout.hpp"
+	"gui/Widget.hpp"
+
+1386194827 d:\workspace\projetogb\inc\gui\layouts\hboxlayout.hpp
+	"Layout.hpp"
+
+1386194664 source:d:\workspace\projetogb\src\image.cpp
+	"gui/Image.hpp"
+	"gui/Menu.hpp"
+
+1386194697 d:\workspace\projetogb\inc\gui\image.hpp
+	"Widget.hpp"
+
+1386194698 source:d:\workspace\projetogb\src\iniparser.cpp
+	<iostream>
+	<fstream>
+	"IniParser.hpp"
+
+1386194696 d:\workspace\projetogb\inc\iniparser.hpp
+	<string>
+	<map>
+	<sstream>
+
+1386194664 source:d:\workspace\projetogb\src\input.cpp
+	<cstdio>
+	<SFML/Graphics.hpp>
+	"Input.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+	"StringUtils.hpp"
+	"IniParser.hpp"
+
+1386194663 d:\workspace\projetogb\inc\input.hpp
+	<SFML/Window.hpp>
+
+1386220760 d:\workspace\projetogb\inc\application.hpp
+	<iostream>
+	<vector>
+	<SFML/Graphics/RenderWindow.hpp>
+	"Input.hpp"
+	"Tela.hpp"
+
+1386194659 d:\workspace\projetogb\inc\tela.hpp
+	<SFML/Graphics.hpp>
+	"Resources.hpp"
+
+1386194724 d:\workspace\projetogb\inc\stringutils.hpp
+	<cstdarg>
+	<string>
+	<sstream>
+	<iomanip>
+
+1386194664 source:d:\workspace\projetogb\src\label.cpp
+	"gui/Label.hpp"
+	"gui/Menu.hpp"
+
+1386194666 source:d:\workspace\projetogb\src\layout.cpp
+	"gui/layouts/Layout.hpp"
+
+1386194660 source:d:\workspace\projetogb\src\list.cpp
+	"List.hpp"
+
+1386194660 d:\workspace\projetogb\inc\list.hpp
+	<iostream>
+	<fstream>
+	"Nodo.hpp"
+
+1386194661 source:d:\workspace\projetogb\src\math.cpp
+	<ctime>
+	"Math.hpp"
+
+1386194659 d:\workspace\projetogb\inc\math.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+	<cmath>
+	<cstdlib>
+
+1386194662 source:d:\workspace\projetogb\src\menu.cpp
+	"gui/Menu.hpp"
+	<cstdio>
+
+1386194721 source:d:\workspace\projetogb\src\optionlist.cpp
+	<cassert>
+	"gui/OptionList.hpp"
+	"gui/Menu.hpp"
+
+1386194766 d:\workspace\projetogb\inc\gui\optionlist.hpp
+	<vector>
+	<string>
+	"Widget.hpp"
+
+1386194641 source:d:\workspace\projetogb\src\pilha.cpp
+	"Pilha.hpp"
+
+1386194641 d:\workspace\projetogb\inc\pilha.hpp
+	"Nodo.hpp"
+
+1386194727 source:d:\workspace\projetogb\src\progressbar.cpp
+	"gui/ProgressBar.hpp"
+	"gui/Menu.hpp"
+
+1386194771 d:\workspace\projetogb\inc\gui\progressbar.hpp
+	"Widget.hpp"
+
+1386194698 source:d:\workspace\projetogb\src\resources.cpp
+	"Resources.hpp"
+
+1386194665 source:d:\workspace\projetogb\src\slider.cpp
+	"gui/Slider.hpp"
+	"gui/Menu.hpp"
+
+1386194719 d:\workspace\projetogb\inc\gui\slider.hpp
+	"Widget.hpp"
+
+1386194727 source:d:\workspace\projetogb\src\soundsystem.cpp
+	<iostream>
+	"SoundSystem.hpp"
+	"Resources.hpp"
+
+1386194725 d:\workspace\projetogb\inc\soundsystem.hpp
+	<string>
+	<SFML/Audio.hpp>
+	"SoundSystem.hpp"
+	"IniParser.hpp"
+
+1386194817 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1386194935 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1386194892 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1386194962 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1386194963 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1386194893 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1386194989 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1386194971 d:\workspace\projetogb\lib\sfml-2.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+
+1386194726 source:d:\workspace\projetogb\src\stringutils.cpp
+	<sstream>
+	<cstdio>
+	<cassert>
+	"StringUtils.hpp"
+
+1386194668 source:d:\workspace\projetogb\src\textbox.cpp
+	<cassert>
+	"gui/TextBox.hpp"
+	"gui/Menu.hpp"
+	<iostream>
+
+1386194725 d:\workspace\projetogb\inc\gui\textbox.hpp
+	"Widget.hpp"
+	"BitmapString.hpp"
+
+1386194721 source:d:\workspace\projetogb\src\vboxlayout.cpp
+	"gui/layouts/VBoxLayout.hpp"
+	"gui/Widget.hpp"
+
+1386194825 d:\workspace\projetogb\inc\gui\layouts\vboxlayout.hpp
+	"Layout.hpp"
+
+1386194666 source:d:\workspace\projetogb\src\widget.cpp
+	"gui/Widget.hpp"
+	"gui/Menu.hpp"
+
+1386220583 source:d:\workspace\projetogb\src\application.cpp
+	"Telas.hpp"
+	<iostream>
+	"BaseInfo.hpp"
+
+1386194663 d:\workspace\projetogb\inc\telas.hpp
+	"Tela_Principal.hpp"
+	"Tela_Creditos.hpp"
+
+1386194767 d:\workspace\projetogb\inc\tela_principal.hpp
+	"BaseMenu.hpp"
+
+1386194669 d:\workspace\projetogb\inc\basemenu.hpp
+	<vector>
+	<string>
+	<SFML/Graphics.hpp>
+	"Tela.hpp"
+	"MenuButton.hpp"
+	"ConfigButton.hpp"
+	"gui/gui.hpp"
+
+1386194719 d:\workspace\projetogb\inc\menubutton.hpp
+	"gui/Button.hpp"
+
+1386194667 d:\workspace\projetogb\inc\gui\gui.hpp
+	"Menu.hpp"
+	"Button.hpp"
+	"CheckBox.hpp"
+	"Label.hpp"
+	"Image.hpp"
+	"OptionList.hpp"
+	"ProgressBar.hpp"
+	"Slider.hpp"
+	"TextBox.hpp"
+	"layouts/VBoxLayout.hpp"
+	"layouts/HBoxLayout.hpp"
+	"layouts/FormLayout.hpp"
+
+1386194745 d:\workspace\projetogb\inc\tela_creditos.hpp
+	"BaseMenu.hpp"
+
+1386194668 d:\workspace\projetogb\inc\baseinfo.hpp
+	<SFML/Graphics.hpp>
+
+1386219099 source:d:\workspace\projetogb\src\basemenu.cpp
+	<cassert>
+	"BaseMenu.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+	"SoundSystem.hpp"
+
+1386213498 source:d:\workspace\projetogb\src\clp_simulator.cpp
+
+1386201439 source:d:\workspace\projetogb\src\code.cpp
+	"Code.hpp"
+
+1386201469 d:\workspace\projetogb\inc\code.hpp
+	<iostream>
+	<string>
+	"Fila.hpp"
+	"Command.hpp"
+
+1386214799 d:\workspace\projetogb\inc\command.hpp
+	<iostream>
+	<map>
+
+1386214782 source:d:\workspace\projetogb\src\commands.cpp
+	"Command.hpp"
+
+1386213338 source:d:\workspace\projetogb\src\compiler.cpp
+	"Compiler.hpp"
+
+1386213354 d:\workspace\projetogb\inc\compiler.hpp
+	<fstream>
+	<string>
+	"Application.hpp"
+	"Code.hpp"
+	"Task.hpp"
+	"Program.hpp"
+
+1386200383 d:\workspace\projetogb\inc\task.hpp
+	"Code.hpp"
+	<SFML/System/Clock.hpp>
+
+1386202195 d:\workspace\projetogb\inc\program.hpp
+	"List.hpp"
+	"Task.hpp"
+
+1386215627 source:d:\workspace\projetogb\src\main.cpp
+	"Application.hpp"
+	"CLP_Simulator.hpp"
+	"Compiler.hpp"
+
+1386201846 d:\workspace\projetogb\inc\clp_simulator.hpp
+	"Application.hpp"
+	"Code.hpp"
+	"Task.hpp"
+	"Program.hpp"
+
+1386219219 source:d:\workspace\projetogb\src\menubutton.cpp
+	"MenuButton.hpp"
+	"Resources.hpp"
+	"SoundSystem.hpp"
+
+1386220208 source:d:\workspace\projetogb\src\tela_creditos.cpp
+	"Tela_Creditos.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+	"StringUtils.hpp"
+
+1386220518 source:d:\workspace\projetogb\src\tela_principal.cpp
+	"Tela_Principal.hpp"
+	"Application.hpp"
+	"Resources.hpp"
+
+1386218512 source:d:\workspace\projetogb\src\widgetstyle.cpp
+	"gui/WidgetStyle.hpp"
+

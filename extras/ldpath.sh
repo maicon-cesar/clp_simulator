@@ -1,0 +1,1 @@
+﻿#!/bin/shLD_LIBRARY_PATH=/home/maicon/Workspace/dev/sfml/build/lib:/home/maicon/Workspace/dev/thor/buid/src:$LD_LIBRARY_PATHexport LD_LIBRARY_PATH
